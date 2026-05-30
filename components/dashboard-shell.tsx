@@ -15,7 +15,7 @@ export function DashboardShell({
   const pathname = usePathname();
 
   const navItems = [
-    { href: '/dashboard', label: 'Chat', icon: '💬' },
+    { href: '/dashboard/chat', label: 'Chat', icon: '💬' },
     { href: '/dashboard/registry', label: 'Registry', icon: '🔌' },
     { href: '/dashboard/permissions', label: 'Permissions', icon: '🔒' },
     { href: '/dashboard/logs', label: 'Logs', icon: '📋' },
